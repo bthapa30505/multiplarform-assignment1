@@ -5,6 +5,7 @@ class ConversionResult extends StatelessWidget {
 
   const ConversionResult({super.key, required this.result});
 
+  //This component is used to display the result of the conversion.
   @override
   Widget build(BuildContext context) {
     return Text(

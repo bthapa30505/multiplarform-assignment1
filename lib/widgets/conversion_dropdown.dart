@@ -14,6 +14,8 @@ class ConversionDropdown extends StatelessWidget {
     required this.onChanged,
   });
 
+  //This widget is used as a dropdown option that is reusable on two different places.
+  //It returns the new value when changed.
   @override
   Widget build(BuildContext context) {
     return Container(

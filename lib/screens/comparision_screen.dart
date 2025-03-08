@@ -44,6 +44,9 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
+  //This is the main screen of the app.
+  //It contains the dropdowns, input field, and the result of the conversion.
+  //It imports two widgets: ConversionDropdown and ConversionResult.
   @override
   Widget build(BuildContext context) {
     return Scaffold(
